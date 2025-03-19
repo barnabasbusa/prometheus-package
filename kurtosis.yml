@@ -1,4 +1,4 @@
-name: "github.com/kurtosis-tech/prometheus-package"
+name: "github.com/barnabasbusa/prometheus-package"
 description: |
   # Prometheus
   This is a Kurtosis package for launching a Prometheus server that scrapes metrics from services. See the `main.star#run` function for details on how to configure the server.
