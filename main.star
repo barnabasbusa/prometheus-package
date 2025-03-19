@@ -156,7 +156,7 @@ def get_metrics_jobs(service_metrics_configs):
                 "Labels": labels,
                 "MetricsPath": metrics_path,
                 "ScrapeInterval": scrape_interval,
-                "FallbackScrapeProtocol": fallback_scrape_interval,
+                #"FallbackScrapeProtocol": fallback_scrape_interval,
             }
         )
 
