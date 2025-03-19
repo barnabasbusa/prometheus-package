@@ -12,5 +12,4 @@ scrape_configs:
         labels:{{ range $labelName, $labelValue := $job.Labels }}
           {{ $labelName }}: "{{ $labelValue }}"
         {{- end }}
-    fallback_scrape_protocol: "{{ $job.FallbackScrapeProtocol }}"
   {{- end }}
